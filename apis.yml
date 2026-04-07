@@ -1,19 +1,17 @@
 name: Hibernate ORM
-description: Hibernate ORM is a powerful object/relational mapping solution for 
-  Java applications, providing a framework for mapping an object-oriented domain
-  model to a relational database.
+description: Hibernate ORM is a powerful object/relational mapping solution for Java applications, providing a framework for mapping an object-oriented domain model to a relational database.
 image: https://hibernate.org/images/hibernate-logo.svg
 created: '2024'
 modified: '2026-03-16'
 url: https://hibernate.org/
 specificationVersion: '0.16'
 tags:
-  - ORM
-  - Java
   - Database
+  - Java
   - JPA
-  - Persistence
   - Object-Relational Mapping
+  - ORM
+  - Persistence
 apis:
   - name: Hibernate ORM API
     description: >-
@@ -29,11 +27,9 @@ apis:
       - type: Getting Started
         url: https://hibernate.org/orm/documentation/getting-started/
       - type: User Guide
-        url: 
-          https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html
+        url: https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html
       - type: Migration Guide
-        url: 
-          https://github.com/hibernate/hibernate-orm/blob/main/migration-guide.adoc
+        url: https://github.com/hibernate/hibernate-orm/blob/main/migration-guide.adoc
       - type: GitHub Repository
         url: https://github.com/hibernate/hibernate-orm
       - type: Release Notes
@@ -41,8 +37,8 @@ apis:
       - type: Quickstart
         url: https://hibernate.org/quick-start.html
     tags:
-      - ORM
       - JPA
+      - ORM
       - Persistence
   - name: Hibernate Validator API
     description: >-
@@ -56,16 +52,15 @@ apis:
       - type: API Documentation
         url: https://docs.jboss.org/hibernate/validator/8.0/api/
       - type: Reference Guide
-        url: 
-          https://docs.jboss.org/hibernate/validator/8.0/reference/en-US/html_single/
+        url: https://docs.jboss.org/hibernate/validator/8.0/reference/en-US/html_single/
       - type: GitHub Repository
         url: https://github.com/hibernate/hibernate-validator
       - type: Getting Started
         url: https://hibernate.org/validator/documentation/getting-started/
     tags:
-      - Validation
       - Bean Validation
       - JSR 380
+      - Validation
   - name: Hibernate Search API
     description: >-
       Full-text search for domain model with Apache Lucene and Elasticsearch integration.
@@ -78,16 +73,15 @@ apis:
       - type: API Documentation
         url: https://docs.jboss.org/hibernate/search/7.0/api/
       - type: Reference Guide
-        url: 
-          https://docs.jboss.org/hibernate/search/7.0/reference/en-US/html_single/
+        url: https://docs.jboss.org/hibernate/search/7.0/reference/en-US/html_single/
       - type: GitHub Repository
         url: https://github.com/hibernate/hibernate-search
       - type: Getting Started
         url: https://hibernate.org/search/documentation/getting-started/
     tags:
+      - Elasticsearch
       - Full-Text Search
       - Lucene
-      - Elasticsearch
   - name: Hibernate Reactive API
     description: >-
       Reactive API for Hibernate ORM with non-blocking database access.
@@ -98,19 +92,17 @@ apis:
       - type: Documentation
         url: https://hibernate.org/reactive/documentation/
       - type: API Documentation
-        url: 
-          https://javadoc.io/doc/org.hibernate.reactive/hibernate-reactive-core/latest/
+        url: https://javadoc.io/doc/org.hibernate.reactive/hibernate-reactive-core/latest/
       - type: Reference Guide
-        url: 
-          https://hibernate.org/reactive/documentation/1.1/reference/html_single/
+        url: https://hibernate.org/reactive/documentation/1.1/reference/html_single/
       - type: GitHub Repository
         url: https://github.com/hibernate/hibernate-reactive
       - type: Getting Started
         url: https://github.com/hibernate/hibernate-reactive/blob/main/README.md
     tags:
-      - Reactive
-      - Non-blocking
       - Async
+      - Non-Blocking
+      - Reactive
 maintainers:
   - name: Hibernate Team
     email: hibernate-dev@lists.jboss.org
