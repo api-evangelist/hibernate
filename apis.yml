@@ -2,7 +2,7 @@ name: Hibernate ORM
 description: Hibernate ORM is a powerful object/relational mapping solution for Java applications, providing a framework for mapping an object-oriented domain model to a relational database.
 image: https://hibernate.org/images/hibernate-logo.svg
 created: '2024'
-modified: '2026-03-16'
+modified: '2026-04-28'
 url: https://hibernate.org/
 specificationVersion: '0.16'
 tags:
