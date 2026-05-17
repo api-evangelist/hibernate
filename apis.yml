@@ -24,15 +24,15 @@ apis:
         url: https://hibernate.org/orm/documentation/
       - type: API Documentation
         url: https://docs.jboss.org/hibernate/orm/current/javadocs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://hibernate.org/orm/documentation/getting-started/
       - type: User Guide
         url: https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html
       - type: Migration Guide
         url: https://github.com/hibernate/hibernate-orm/blob/main/migration-guide.adoc
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/hibernate/hibernate-orm
-      - type: Release Notes
+      - type: ReleaseNotes
         url: https://hibernate.org/orm/releases/
       - type: Quickstart
         url: https://hibernate.org/quick-start.html
@@ -53,9 +53,9 @@ apis:
         url: https://docs.jboss.org/hibernate/validator/8.0/api/
       - type: Reference Guide
         url: https://docs.jboss.org/hibernate/validator/8.0/reference/en-US/html_single/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/hibernate/hibernate-validator
-      - type: Getting Started
+      - type: GettingStarted
         url: https://hibernate.org/validator/documentation/getting-started/
     tags:
       - Bean Validation
@@ -74,9 +74,9 @@ apis:
         url: https://docs.jboss.org/hibernate/search/7.0/api/
       - type: Reference Guide
         url: https://docs.jboss.org/hibernate/search/7.0/reference/en-US/html_single/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/hibernate/hibernate-search
-      - type: Getting Started
+      - type: GettingStarted
         url: https://hibernate.org/search/documentation/getting-started/
     tags:
       - Elasticsearch
@@ -95,9 +95,9 @@ apis:
         url: https://javadoc.io/doc/org.hibernate.reactive/hibernate-reactive-core/latest/
       - type: Reference Guide
         url: https://hibernate.org/reactive/documentation/1.1/reference/html_single/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/hibernate/hibernate-reactive
-      - type: Getting Started
+      - type: GettingStarted
         url: https://github.com/hibernate/hibernate-reactive/blob/main/README.md
     tags:
       - Async
