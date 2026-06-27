@@ -34,7 +34,7 @@ apis:
         url: https://github.com/hibernate/hibernate-orm
       - type: ReleaseNotes
         url: https://hibernate.org/orm/releases/
-      - type: Quickstart
+      - type: GettingStarted
         url: https://hibernate.org/quick-start.html
     tags:
       - JPA
