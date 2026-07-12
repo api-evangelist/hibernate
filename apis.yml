@@ -108,6 +108,8 @@ maintainers:
     email: hibernate-dev@lists.jboss.org
     url: https://hibernate.org/community/
 common:
+  - type: DomainSecurity
+    url: security/hibernate-domain-security.yml
   - type: Community
     url: https://hibernate.org/community/
   - type: Forums
