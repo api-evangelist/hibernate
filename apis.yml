@@ -1,5 +1,17 @@
 name: Hibernate ORM
 description: Hibernate ORM is a powerful object/relational mapping solution for Java applications, providing a framework for mapping an object-oriented domain model to a relational database.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://hibernate.org/images/hibernate-logo.svg
 created: '2024'
 modified: '2026-04-28'
