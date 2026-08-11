@@ -120,6 +120,12 @@ maintainers:
     email: hibernate-dev@lists.jboss.org
     url: https://hibernate.org/community/
 common:
+  - type: Releases
+    url: https://github.com/hibernate/hibernate-orm/releases
+  - type: CodeOfConduct
+    url: https://github.com/hibernate/.github/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/hibernate/hibernate-orm/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/hibernate-domain-security.yml
   - type: Community
