@@ -16,7 +16,7 @@ image: https://hibernate.org/images/hibernate-logo.svg
 created: '2024'
 modified: '2026-04-28'
 url: https://hibernate.org/
-specificationVersion: '0.16'
+specificationVersion: '0.23'
 tags:
   - Database
   - Java
