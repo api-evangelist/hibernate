@@ -1,4 +1,4 @@
-# Hibernate ORM (hibernate)
+# Hibernate ORM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,106 +66,102 @@
 
 Hibernate ORM is a powerful object/relational mapping solution for Java applications, providing a framework for mapping an object-oriented domain model to a relational database.
 
-**URL:** [Visit APIs.json URL](https://hibernate.org/)
+**Areas:** Database · Java · JPA · Object-Relational Mapping · ORM · Persistence
 
-## Tags:
+## Hibernate ORM on APIs.io
 
- - ORM, Java, Database, JPA, Persistence, Object-Relational Mapping
+Everything profiled for Hibernate ORM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hibernate/](https://apis.io/providers/hibernate/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2024
-- **Modified:** 2026-04-28
+- [Hibernate ORM API](https://apis.io/apis/hibernate/hibernate-orm-api/) — Core Hibernate ORM framework for object-relational mapping.
+- [Hibernate Validator API](https://apis.io/apis/hibernate/hibernate-validator-api/) — Bean Validation reference implementation with additional constraints.
+- [Hibernate Search API](https://apis.io/apis/hibernate/hibernate-search-api/) — Full-text search for domain model with Apache Lucene and Elasticsearch integration.
+- [Hibernate Reactive API](https://apis.io/apis/hibernate/hibernate-reactive-api/) — Reactive API for Hibernate ORM with non-blocking database access.
 
-## APIs
+### Published properties
 
-### Hibernate ORM API
-Core Hibernate ORM framework for object-relational mapping
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://hibernate.org/orm/](https://hibernate.org/orm/)
+#### Security (1)
 
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Hibernate Domain Security](https://apis.io/security/hibernate/hibernate-domain-security/)
 
- - ORM, JPA, Persistence
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://hibernate.org/orm/documentation/)
-- [API Documentation](https://docs.jboss.org/hibernate/orm/current/javadocs/)
-- [Getting Started](https://hibernate.org/orm/documentation/getting-started/)
-- [User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)
-- [Migration Guide](https://github.com/hibernate/hibernate-orm/blob/main/migration-guide.adoc)
-- [GitHub Repository](https://github.com/hibernate/hibernate-orm)
-- [Release Notes](https://hibernate.org/orm/releases/)
-- [Quickstart](https://hibernate.org/quick-start.html)
+- [Hibernate Plans Pricing](https://apis.io/plans/hibernate/hibernate-plans-pricing/)
 
-### Hibernate Validator API
-Bean Validation reference implementation with additional constraints
+#### Rate limits (1)
 
-**Human URL:** [https://hibernate.org/validator/](https://hibernate.org/validator/)
+Published request limits.
 
+- [Hibernate Rate Limits](https://apis.io/rate-limits/hibernate/hibernate-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - Validation, Bean Validation, JSR 380
+What the API costs to run, by operation.
 
-#### Properties
+- [Hibernate Finops](https://apis.io/finops/hibernate/hibernate-finops/)
 
-- [Documentation](https://hibernate.org/validator/documentation/)
-- [API Documentation](https://docs.jboss.org/hibernate/validator/8.0/api/)
-- [Reference Guide](https://docs.jboss.org/hibernate/validator/8.0/reference/en-US/html_single/)
-- [GitHub Repository](https://github.com/hibernate/hibernate-validator)
-- [Getting Started](https://hibernate.org/validator/documentation/getting-started/)
+## Where to find this API
 
-### Hibernate Search API
-Full-text search for domain model with Apache Lucene and Elasticsearch integration
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-**Human URL:** [https://hibernate.org/search/](https://hibernate.org/search/)
+- [Website](https://hibernate.org)
 
+## API Evangelist rating
 
-#### Tags:
+**Kin Score 21.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
- - Full-Text Search, Lucene, Elasticsearch
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 7.9 |
 
-#### Properties
+**Agent readiness 0.6** — human-only
 
-- [Documentation](https://hibernate.org/search/documentation/)
-- [API Documentation](https://docs.jboss.org/hibernate/search/7.0/api/)
-- [Reference Guide](https://docs.jboss.org/hibernate/search/7.0/reference/en-US/html_single/)
-- [GitHub Repository](https://github.com/hibernate/hibernate-search)
-- [Getting Started](https://hibernate.org/search/documentation/getting-started/)
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-### Hibernate Reactive API
-Reactive API for Hibernate ORM with non-blocking database access
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-**Human URL:** [https://hibernate.org/reactive/](https://hibernate.org/reactive/)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hibernate/](https://apis.io/providers/hibernate/).
 
+## How this profile is made
 
-#### Tags:
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
- - Reactive, Non-blocking, Async
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hibernate ORM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-#### Properties
+## Open an issue
 
-- [Documentation](https://hibernate.org/reactive/documentation/)
-- [API Documentation](https://javadoc.io/doc/org.hibernate.reactive/hibernate-reactive-core/latest/)
-- [Reference Guide](https://hibernate.org/reactive/documentation/1.1/reference/html_single/)
-- [GitHub Repository](https://github.com/hibernate/hibernate-reactive)
-- [Getting Started](https://github.com/hibernate/hibernate-reactive/blob/main/README.md)
-
-## Common Properties
-
-- [Community](https://hibernate.org/community/)
-- [Forums](https://discourse.hibernate.org/)
-- [Issue Tracker](https://hibernate.atlassian.net/)
-- [Twitter](https://twitter.com/Hibernate)
-- [Zulip Chat](https://hibernate.zulipchat.com/)
-- [License](https://www.gnu.org/licenses/lgpl-2.1.html)
-- [Contributing Guide](https://hibernate.org/community/contribute/)
-
-## Maintainers
-
-**FN:** Hibernate Team
-
-**Email:** hibernate-dev@lists.jboss.org
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hibernate/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
